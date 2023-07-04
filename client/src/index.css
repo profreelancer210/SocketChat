@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+:root {
+  --app-main-clr: #d1d7db;
+  --app-primary-clr: #5474b5;
+  --app-primary-dark-clr: #4866a1;
+  --app-primary-hover: #3d5689;
+  --main-chat-clr: #f8f8f8;
+  --primary-title: #41525d;
+  --text-input-backgroundClr: #fff;
+  --message-clr: #111b21;
+  --contact-list-clr: #fff;
+  --message-time-clr: #667781;
+  --contact-name-clr: #111b21;
+  --contact-message-clr: #3b4a54;
+  --chat-logo-title-clr: #41525d;
+  --clr-grey: #f0f2f5;
+  --profile-edit-clr: #f0f2f5;
+  --clr-grey-2: #667781;
+  --clr-grey-3: #8696a0;
+  --clr-icon: #54656f;
+  --clr-black: #111b21;
+  --clr-icon: #54656f;
+  --clr-icon-2: #8696a0;
+  --outside-message: #3b4a54;
+  --contact-hover: #f5f6f6;
+  --chat-left-border: #d1d7db;
+  --profile-edit-title: #5474b5;
+  --profile-edit-value: #41525d;
+  --profile-form-clr: #fff;
+  --profile-edit-btn: #5474b5;
+  --contact-info-header: #41525d;
+  --contact-info-background: #fff;
+  --contact-info-title: #41525d;
+  --contact-info-about: black;
+  --login-page-background: #fff;
+  --login-page-title: #41525d;
+  --login-page-input: transparent;
+  --login-membe-clr: black;
+}
+
+.light-mode {
+  --app-main-clr: #d1d7db;
+  --app-primary-clr: #5474b5;
+  --app-primary-dark-clr: #4866a1;
+  --app-primary-hover: #3d5689;
+  --main-chat-clr: #f8f8f8;
+  --primary-title: #41525d;
+  --text-input-backgroundClr: #fff;
+  --message-clr: #111b21;
+  --contact-list-clr: #fff;
+  --message-time-clr: #667781;
+  --contact-name-clr: #111b21;
+  --contact-message-clr: #3b4a54;
+  --chat-logo-title-clr: #41525d;
+  --clr-grey: #f0f2f5;
+  --profile-edit-clr: #f0f2f5;
+  --clr-grey-2: #667781;
+  --clr-grey-3: #8696a0;
+  --clr-icon: #54656f;
+  --clr-black: #111b21;
+  --clr-icon: #54656f;
+  --clr-icon-2: #8696a0;
+  --outside-message: #3b4a54;
+  --contact-hover: #f5f6f6;
+  --chat-left-border: #d1d7db;
+  --profile-edit-title: #5474b5;
+  --profile-edit-value: #41525d;
+  --profile-form-clr: #fff;
+  --profile-edit-btn: #5474b5;
+  --contact-info-header: #41525d;
+  --contact-info-background: #fff;
+  --contact-info-title: #41525d;
+  --contact-info-about: black;
+  --login-page-background: #fff;
+  --login-page-title: #41525d;
+  --login-page-input: transparent;
+  --login-membe-clr: black;
+}
+
+.dark-mode {
+  --app-main-clr: #111b21;
+  --app-primary-clr: #111b21;
+  --app-primary-dark-clr: #202c33;
+  --app-primary-hover: #3d5689;
+  --main-chat-clr: #111b21;
+  --primary-title: #41525d;
+  --contact-list-clr: #111b21;
+  --contact-name-clr: #e9edef;
+  --contact-message-clr: #d1d7db;
+  --chat-logo-title-clr: #e9edef;
+  --message-clr: #111b21;
+  --text-input-backgroundClr: #2c373d;
+  --text-input-clr: #e9edef;
+  --message-time-clr: #667781;
+  --main-chat-clr: #192125;
+  --main-chat-contact-name: #e9edef;
+  --clr-grey: #202c33;
+  --clr-grey-2: #e9edef;
+  --clr-grey-3: #8696a0;
+  --clr-icon: #54656f;
+  --clr-black: #111b21;
+  --clr-icon: #aebac1;
+  --clr-icon-2: #8696a0;
+  --outside-message: #3b4a54;
+  --contact-hover: #2c373d;
+  --chat-left-border: rgba(134, 150, 160, 0.15);
+  --profile-edit-clr: #111b21;
+  --profile-form-clr: #111b21;
+  --profile-edit-title: #5474b5;
+  --profile-edit-value: #fff;
+  --profile-edit-btn: #5474b5;
+  --contact-info-header: #fff;
+  --contact-info-background: #111b21;
+  --contact-info-title: #fff;
+  --contact-info-about: #fff;
+  --login-page-background: #111b21;
+  --login-page-title: #fff;
+  --login-page-input: #fff;
+  --login-membe-clr: #fff;
+}
+
+body {
+  background-color: var(--app-main-clr);
+  font-family: 'Lato', sans-serif;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.avatar-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.button {
+  background-color: var(--app-primary-clr);
+  border: transparent;
+  width: 55%;
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
+  text-transform: capitalize;
+  border-radius: 0.25rem;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+  background-color: var(--app-primary-hover);
+}

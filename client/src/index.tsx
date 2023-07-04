@@ -16,7 +16,7 @@ import { getMainDefinition } from "@apollo/client/utilities";
 import { createClient } from "graphql-ws";
 
 let httpLink = createHttpLink({
-  uri: "http://192.168.104.78:5000/graphql",
+  uri: "https://5c18-3-133-105-175.ngrok-free.app/graphql",
 });
 const authLink = setContext(() => {
   const token = localStorage.getItem("token");
@@ -31,7 +31,7 @@ httpLink = authLink.concat(httpLink);
 
 const wsLink = new GraphQLWsLink(
   createClient({
-    url: "ws://192.168.104.78:5000/graphql",
+    url: "ws://5c18-3-133-105-175.ngrok-free.app/graphql",
     connectionParams: {
       reconnect: true,
       Authorization: `Bearer ${localStorage.getItem("token")}`,

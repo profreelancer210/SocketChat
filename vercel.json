@@ -3,12 +3,13 @@
   "builds": [
     {
       "src": "dist/index.js",
-      "use": "@vercel/node"
+      "use": "@vercel/node",
+      "config": { "includeFiles": ["dist/**"] }
     }
   ],
   "routes": [
     {
-      "src": "dist/(.*)",
+      "src": "/**/(.*)",
       "dest": "dist/index.js"
     }
   ]

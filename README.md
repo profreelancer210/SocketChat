@@ -1,4 +1,5 @@
 # Messenger Web Application
+
 > Messenger Full Stack web application.
 
 This is a sample application that demonstrates a whatsapp web application using the MERN stack.
@@ -10,38 +11,33 @@ https://www.youtube.com/watch?v=A-z_C_AhsHo
 
 ## Pictures:
 
-
-
-
 ![screenshot](https://github.com/amitshuu/messenger-app/blob/main/uploads/Main.png)
-
 
 ![screehnshot](https://github.com/amitshuu/messenger-app/blob/main/uploads/ContactInfoTab.png)
 
-
 ![screehnshot](https://github.com/amitshuu/messenger-app/blob/main/uploads/Profile.png)
-
 
 ![screehnshot](https://github.com/amitshuu/messenger-app/blob/main/uploads/Darkmode.png)
 
 ![screehnshot](https://github.com/amitshuu/messenger-app/blob/main/uploads/ContactRequest.png)
 
-
-
 # Built with
 
 - Typescript
 
-### Client - 
+### Client -
+
 - React
 - Apollo Client
 - React Context API
 - Styled Components
 - Material UI
-### Server - 
+
+### Server -
+
 - Node.js
 - Express
-- GraphQL 
+- GraphQL
 - Apollo Server
 - MongoDB
 - GraphQL Subscription.
@@ -79,10 +75,9 @@ npm install
 ```
 
 ### Run
+
 ```
 Run frontend (:3000) & backend (:5000)
 npm run client
 npm run dev
 ```
-
-

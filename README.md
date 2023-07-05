@@ -23,7 +23,7 @@ https://www.youtube.com/watch?v=A-z_C_AhsHo
 
 # Built with
 
-- Typescript
+- Typescript1
 
 ### Client -
 

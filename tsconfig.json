@@ -106,7 +106,7 @@
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
-      "*": ["node_modules/*", "server/types/*"]
+      "*": ["node_modules/*", "server/*"]
     }
   },
   "include": ["./server/**/*"]

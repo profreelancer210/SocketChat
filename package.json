@@ -13,7 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "@emoji-mart/data": "^1.0.5",
-    "@emoji-mart/react": "^1.0.1",
     "@graphql-tools/schema": "^9.0.1",
     "@types/bcryptjs": "^2.4.2",
     "@types/emoji-mart": "^3.0.9",

@@ -17,7 +17,7 @@ https://www.youtube.com/watch?v=A-z_C_AhsHo
 
 ![screehnshot](https://github.com/amitshuu/messenger-app/blob/main/uploads/Profile.png)
 
-![screehnshot](https://github.com/amitshuu/messenger-app/blob/main/uploads/Darkmode.png)
+![screehnshot](https://github.com/amitshuuw/messenger-app/blob/main/uploads/Darkmode.png)
 
 ![screehnshot](https://github.com/amitshuu/messenger-app/blob/main/uploads/ContactRequest.png)
 

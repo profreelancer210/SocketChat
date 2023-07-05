@@ -12,8 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cloudinary/react": "^1.4.2",
-    "@cloudinary/url-gen": "^1.8.6",
     "@emoji-mart/data": "^1.0.5",
     "@emoji-mart/react": "^1.0.1",
     "@graphql-tools/schema": "^9.0.1",

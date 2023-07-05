@@ -6,7 +6,7 @@ import { connectDB } from "./database/connect";
 import resolvers from "./graphql/resolvers/index";
 import { PubSub } from "graphql-subscriptions";
 import { createServer } from "http";
-import { WebSocketServer } from "ws";
+import { WebSocketServer, WebSocket } from "ws";
 import { useServer } from "graphql-ws/lib/use/ws";
 import { makeExecutableSchema } from "@graphql-tools/schema";
 import cors from "cors";
@@ -27,7 +27,7 @@ app.use(
 const httpServer = createServer(app);
 const schema = makeExecutableSchema({ typeDefs, resolvers });
 
-const wsServer = new WebSocketServer({
+const wsServer = new WebSocket.Server({
   server: httpServer,
   path: "/graphql",
 });

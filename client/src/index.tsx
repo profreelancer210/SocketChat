@@ -16,7 +16,7 @@ import { getMainDefinition } from "@apollo/client/utilities";
 import { createClient } from "graphql-ws";
 
 let httpLink = createHttpLink({
-  uri: " https://807d-3-133-105-175.ngrok-free.app/graphql",
+  uri: "https://twilio-sms-flax.vercel.app/graphql",
 });
 const authLink = setContext(() => {
   const token = localStorage.getItem("token");
@@ -31,7 +31,7 @@ httpLink = authLink.concat(httpLink);
 
 const wsLink = new GraphQLWsLink(
   createClient({
-    url: "wss://4.tcp.ngrok.io:14977/graphql",
+    url: "wss://twilio-sms-flax.vercel.app/graphql",
     connectionParams: {
       reconnect: true,
       Authorization: `Bearer ${localStorage.getItem("token")}`,

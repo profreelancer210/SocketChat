@@ -15,6 +15,9 @@ interface IProps {
   imageUrl?: string | null;
 }
 
+
+
+
 const TextInputContainer = ({
   toggleContactInfo,
   uploadImage,
@@ -111,6 +114,18 @@ const TextInputContainer = ({
 
 export default TextInputContainer;
 
+const Input = styled.input<{ toggleContactInfo: boolean }>`
+  width: ${(props) => (props.toggleContactInfo ? "40%" : "80%")};
+  transition: 0.2s all;
+  height: 45px;
+  border-radius: 8px;
+  background-color: var(--text-input-backgroundClr);
+  color: var(--text-input-clr);
+  border-color: transparent;
+  padding-left: 1rem;
+  outline: none;
+`;
+
 const Wrapper = styled.form<{ toggleContactInfo: boolean }>`
   display: flex;
   justify-content: ${(props) =>
@@ -130,17 +145,7 @@ const Wrapper = styled.form<{ toggleContactInfo: boolean }>`
   }
 `;
 
-const Input = styled.input<{ toggleContactInfo: boolean }>`
-  width: ${(props) => (props.toggleContactInfo ? "40%" : "80%")};
-  transition: 0.2s all;
-  height: 45px;
-  border-radius: 8px;
-  background-color: var(--text-input-backgroundClr);
-  color: var(--text-input-clr);
-  border-color: transparent;
-  padding-left: 1rem;
-  outline: none;
-`;
+
 
 const SubmitButton = styled.button`
   outline: none;

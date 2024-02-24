@@ -1,13 +1,14 @@
-import styled from "styled-components";
-import SendIcon from "@mui/icons-material/Send";
-import InsertEmoticonIcon from "@mui/icons-material/InsertEmoticon";
-import OpenInNewIcon from "@mui/icons-material/OpenInNew";
-import { useMutation } from "@apollo/client";
 import { POST_MESSAGE } from "../graphql/mutations/chatMutations";
 import { useAppContext } from "../context/appContext";
 import { useEffect, useRef, useState } from "react";
 import { GET_CHAT_MESSAGES } from "../graphql/queries/chatQueries";
 import Picker from "emoji-picker-react";
+import styled from "styled-components";
+import SendIcon from "@mui/icons-material/Send";
+import InsertEmoticonIcon from "@mui/icons-material/InsertEmoticon";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
+import { useMutation } from "@apollo/client";
+
 
 interface IProps {
   toggleContactInfo: boolean;

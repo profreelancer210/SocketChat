@@ -11,6 +11,8 @@ import styled from "styled-components";
 
 
 
+
+
 interface IProps {
   toggleContactInfo: boolean;
   uploadImage: (file: any) => void;
